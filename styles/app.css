@@ -63,7 +63,7 @@ canvas {
   padding-top: 1rem;
 }
 
-.controls label, .controls select {
+.controls label, .controls select, #results, #info {
   display: block;
   margin: 0 auto;
 }
@@ -75,14 +75,14 @@ canvas {
   padding: 1rem 0;
 }
 
-.controls select {
+.controls select, #results, #info {
   width: 80%;
   font-size: 2rem;
 }
 
 /* || button styling */
 
-button, form a {    
+a.mute {    
     background-color: #0088cc;
     background-image: linear-gradient(to bottom,  #0088cc 0%,#0055cc 100%); 
     text-shadow: 1px 1px 1px black;  
